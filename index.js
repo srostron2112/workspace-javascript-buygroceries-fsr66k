@@ -16,7 +16,7 @@ import * as firebaseui from "firebaseui";
 //  Code for later database connection Please ignore.
 
 // Add Firebase project configuration object here
-const firebaseConfig = {
+var firebaseConfig = {
   apiKey: "AIzaSyCnTiONA5kJi8Hroxd3dimv-AlRHeLnpOM",
   authDomain: "csci225-bab55.firebaseapp.com",
   projectId: "csci225-bab55",
