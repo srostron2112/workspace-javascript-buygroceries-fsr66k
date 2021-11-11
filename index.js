@@ -16,17 +16,17 @@ import * as firebaseui from "firebaseui";
 //  Code for later database connection Please ignore.
 
 // Add Firebase project configuration object here
-var firebaseConfig = {
-  apiKey: "AIzaSyAzcwgZuLA7dO9g4sQhXQVTUgCo0M8m2qM",
-  authDomain: "grocerylist-91956.firebaseapp.com",
-  databaseURL: "https://grocerylist-91956.firebaseio.com",
-  projectId: "grocerylist-91956",
-  storageBucket: "grocerylist-91956.appspot.com",
-  messagingSenderId: "813812426276",
-  appId: "1:813812426276:web:93e5897af12892ff78dab1",
-  measurementId: "G-VZ83BTR72T"
+const firebaseConfig = {
+  apiKey: "AIzaSyCnTiONA5kJi8Hroxd3dimv-AlRHeLnpOM",
+  authDomain: "csci225-bab55.firebaseapp.com",
+  projectId: "csci225-bab55",
+  storageBucket: "csci225-bab55.appspot.com",
+  messagingSenderId: "145918814164",
+  appId: "1:145918814164:web:8bdf18387236af79699841",
+  measurementId: "G-CRJL29Q68X"
 };
 
+// Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 
 // Save the list to database
